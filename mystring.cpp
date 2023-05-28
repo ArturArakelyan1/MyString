@@ -112,4 +112,5 @@ MyString operator+(const MyString& lhs, const MyString& rhs )
 std::ostream& operator<< (std::ostream& ch, const MyString obj)
 {
     ch << obj.m_buf;
+    return ch;
 }
